@@ -8,21 +8,15 @@ df = pd.read_csv("data.csv")
 # Printing Some Text
 print()
 print("-----------------------Corona Cases Worldwide Using Graphs-----------------------")
-print("Ploting At Your Brwser..")
+print("Ploting At Your Browser..")
 print()
 
 # Data In Scatter Chart
-# Case 1
-fig = px.scatter(df, x="cases", y="date", color="country", size="cases", size_max=70, title="Corona Cases Worldwide(Scatter Chart 1)")
-fig.show()
-print("Corona Cases Worldwide(Scatter Chart 1)")
-print()
-
 # Data In Scatter Chart
 # Case 2
-fig = px.scatter(df, x="date", y="cases", color="country", size="cases", size_max=70, title="Corona Cases Worldwide(Scatter Chart 2)")
+fig = px.scatter(df, x="date", y="cases", color="country", size="cases", size_max=15, title="Corona Cases Worldwide(Scatter Chart)")
 fig.show()
-print("Corona Cases Worldwide(Scatter Chart 2)")
+print("Corona Cases Worldwide(Scatter Chart)")
 print()
 
 # A Bar Graph Or A Line Graph Could Be A Better Option. So,
