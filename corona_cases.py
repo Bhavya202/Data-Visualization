@@ -12,8 +12,6 @@ print("Ploting At Your Browser..")
 print()
 
 # Data In Scatter Chart
-# Data In Scatter Chart
-# Case 2
 fig = px.scatter(df, x="date", y="cases", color="country", size="cases", size_max=15, title="Corona Cases Worldwide(Scatter Chart)")
 fig.show()
 print("Corona Cases Worldwide(Scatter Chart)")
